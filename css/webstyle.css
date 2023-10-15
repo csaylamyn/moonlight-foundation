@@ -1,0 +1,220 @@
+
+       /*=====BODY SECTION =====*/
+
+body{
+    /*background-color: snow;*/
+    margin: 0;
+    padding: 0;
+    font-family: verdana Arial times georgia;
+    font-size: 14px;
+    z-index: 1;
+}
+
+
+        /*==== NAVBAR SECTION =====*/
+
+
+#topHeaderText{
+	color: white;
+	font-family: carsiva;
+	font-size: 25px;
+	text-align: left;
+    padding: 10px;
+}
+#Logo{
+	height: 80%;
+	width: 80px;
+	/*position: relative;
+	float: left;
+	padding-right: 7px;
+	margin: 100px 5px 0 5px;*/	
+}
+#logoContainer{
+	float: left;
+	position: relative;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-right: 20px;
+}
+#mainBody{
+			width: 95%;
+			margin: 0 auto;  /*center the DIV horizontal */
+			/*background-color: red;*/
+		}
+#fixed-header{
+			background: #FFFFFF;
+			width: 100%;
+			height: 100px;
+			position: fixed;
+			padding: 10px 0 0 30px;
+			color: orangered;
+			top: 0; 
+			border-bottom: 2px orangered solid;
+			z-index: 1; /*the main body will scroll under the header*/
+			/*overflow: hidden; */
+		}
+		
+		#navBar ul{
+			float: right;
+   			 padding: 0px;
+  			margin-top: 4%;
+  			list-style: none;
+		}
+		#navBar li{
+			float: left;
+  			font-size: 120%;
+  			width: 130px;
+  			height: 40px;
+  			line-height: 40px;	
+  			margin-right: 2px;
+  			/*background-color: lightgrey;*/
+		}
+
+		#navBar a {
+			text-decoration: none;
+			color: mediumblue;
+			display: block;
+		}
+		#navBar a:hover {
+			color: dimgrey;
+		}
+
+		#navBar ul li ul li{
+    		display: none;
+    		width: 200px;
+    		padding: 5px;
+   			 /*position: absolute; 
+   			 min-width: 160px;
+   			 z-index: 1;*/	   
+		}
+		#navBar ul li:hover ul li{
+    		display: block;	
+    		background: #242424; 
+    		/*opacity: .5;  */
+		} 
+
+#navBar a:visited{
+	color: red;
+}
+
+#languagePack{
+	float: right;
+	margin-right: 55px;
+	font-size: 110%;
+	/*color: orangered;*/
+	color: #A2A2A2;
+}
+
+/*====BODY CONTAINER SECTION ====*/
+
+/*.centerPhoto{
+	margin: 20px 10px 10px 10px; 
+    padding: 10%;
+    height: 300px;
+    width: 600px;
+}*/
+
+#photoSlide-Container{
+    background-color: lavender;
+	width: 100%;
+	height: 550px;
+	margin: 0;	
+}
+.photoSlide-Content{
+
+}
+
+.circleContainer{
+	width: 1000px;
+	height: 1000px;
+	margin: 180px;
+	border-radius: 50%;
+	display: block;
+	opacity: 0.7;
+}
+
+.circleText{
+	margin-left: -8%;
+	padding-top: 5px;
+}
+
+/* === UNDERLINE SECTION ==== */
+
+hr.orangeUnderlineHealth{
+	border: 5px solid black;
+	width: 600px;
+	margin: -30px;
+	border-radius: 5px;
+}
+
+
+hr.greenUnderlineAgric{
+	border: 5px solid black;
+	width: 600px;
+	margin: -30px;
+	border-radius: 5px;
+}
+
+hr.purpleUnderlineEducation{
+	border: 5px solid black;
+	width: 600px;
+	margin: -30px;
+	border-radius: 5px;
+}
+
+hr.blueUnderlineEducation{
+	border: 5px solid black;
+	width: 600px;
+	margin: -30px;
+	border-radius: 5px;
+}
+
+
+#healthCareSection{
+	background-color: darkorange;
+	position: relative;	
+}
+
+#agricultureSection{
+	background-color: green;
+	position: relative;	
+}
+
+#education{
+	background-color: magenta;
+	position: relative;
+}
+
+#section4{
+	background-color: blue;
+	position: relative;
+}
+
+.videoContainer{
+
+}
+
+h1{
+	font-size: 100px;
+	font-family: arial;
+}
+
+h3{
+	font-size: 40px;
+	font-family: arial;
+	opacity: 0.9;
+}
+
+.mainHomeText{
+	text-align: center;
+}
+
+/* FOOTER SECTION === */
+
+#footer{
+	max-width: 100%;
+	height: 500px;
+	background-color: orangered;
+}
+

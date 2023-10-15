@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript in class</title>
+</head>
+		<style type="text/css">
+		
+		body{
+			margin: 0 auto;
+			padding: 0 auto;
+			font-family: verdana Arial times georgia;
+   			font-size: 14px; 
+		}
+
+		/*.container{
+			width: 90%;
+			margin: 0 auto;  center the DIV horizontal 
+			background-color: red;
+		}*/
+
+		#Logo{
+	height: 80%;
+	width: 80px;
+	/*position: relative;
+	float: left;
+	padding-right: 7px;
+	margin: 100px 5px 0 5px;*/	
+}
+#logoContainer{
+	float: left;
+	position: relative;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding-right: 20px;
+}
+
+		.fixed-header{
+			background: lightgrey;
+			width: 100%;
+			position: fixed;
+			padding: 10px 0;
+			color: #fff;
+			top: 0; 
+		}
+		#navBar ul{
+   			 padding: 0px;
+  			margin: 0px;
+  			list-style: none;
+  			/*overflow: hidden;*/
+  			/*background-color: #333;*/
+		}
+		#navBar li{
+			float: left;
+  			font-size: 110%;
+  			width: 200px;
+  			height: 40px;
+  			background-color: lightgrey;
+  			opacity: .8;
+  			line-height: 40px;	
+  			margin-right: 2px;
+		}
+
+		#navBar a {
+			color: #fff;
+			text-decoration: none;
+			/*padding: 7px  25px;*/
+			display: block;
+		}
+		#navBar a:hover {
+			background: green;
+		}
+
+		#navBar ul li ul li{
+    		display: none;
+   			 /*position: absolute; 
+   			 min-width: 160px;
+   			 z-index: 1;*/	   
+		}
+		#navBar ul li:hover ul li{
+    		display: block;	   
+		} 
+
+		.container p{
+			line-height: 200px; /* create scrollbar to test positioning */
+		}
+		</style>
+<body>
+				<!-- <nav>
+					<a href="#">home</a>
+					<a href="#">About</a>
+					<a href="#">product</a>
+					<a href="#">service</a>
+					<a href="#">contact us</a>
+				</nav> -->
+
+		<div class="fixed-header">
+			<div id="logoContainer"><img id="Logo" src="images/MoonlightLogo.png"></div>
+		<h2 id="topHeaderText">Moonlight Foundation</h2>
+			<div class="container">
+				<div id="navBar">
+				<ul>
+		          <li><a href="base.html"> Home</a></li>  
+
+		          <li ><a href="aboutUs.html"> About Us</a>
+		              <ul>
+		                 <li><a href="contactus.html">Contact Us</a></li>
+		                 <li><a href="financials.html">Financials</a></li>
+		                 <li><a href="ourHistory.html">Our History</a></li>
+		                 <li><a href="ourPartners.html">Our Partners</a></li>
+		                 <li><a href="ourpeople.html">Our People</a></li>
+		                 <li><a href="whoWeAre.html">Who We Are</a></li>
+		              </ul>
+		          </li>
+          
+		          <li><a href="whatWeDo/whatWeDo.html"> What We Do</a>
+		              <ul>
+		                 <li><a href="agriculturalDevelopment.html">Agricultural Development</a></li>
+		                 <li><a href="educational.html">educational</a></li>
+		                 <li><a href="financialHelp.html">Financial Help</a></li>
+		                 <li><a href="healthCare.html">Health Care</a></li>
+		                 <li><a href="emergencyResponse.html">Emergency Response</a></li>
+		              </ul>
+
+		          </li>
+		          <li><a href="howWeWork/howWeWork.html"> How We Work</a>
+		              <ul>
+		                 <li><a href="howWemakeGrants.html"> How We Make Grants</a></li>
+		                 <li><a href="strategicDevelopment.html">Strategic Development</a></li>
+		              </ul>
+		          </li>
+
+		          <li><a href="whereWeWork/whereWeWork.html"> Where We Work</a>
+		              <!-- <ul>
+		                 <li><a href="admission.html">Admission</a></li>
+		                 <li><a href="tuition.html">Tuition</a></li>
+		              </ul> -->
+		          </li>
+
+		          <li><a href="getinvolve/getinvolve.html"> Get Involve</a>
+		              <ul>
+		                 <li><a href="becomeDonor.html">Become A Donor</a></li>
+		                 <li><a href="howToApply.html">How To Apply</a></li>
+		              </ul>
+		          </li>
+		        </ul> 
+			</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<p>i am one of the greatest scientist ever live in world
+				What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+			</p>
+			
+		</div>
+	
+</body>
+</html>

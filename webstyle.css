@@ -1,0 +1,184 @@
+
+       /*=====BODY SECTION =====*/
+
+body{
+    background-color: snow;
+    margin: 0;
+    padding: 0;
+    font-family: verdana Arial times georgia;
+    font-size: 14px;
+}
+
+
+        /*==== NAVBAR SECTION =====*/
+
+#topHeader{
+	background-color: orangered;
+	width: 100%;
+	height:100px;
+    position: fixed;
+    top: 0;
+    /*margin-top: -7px;*/
+}
+#topHeaderText{
+	color: blue;
+	font-family: carsiva;
+	font-size: 25px;
+	text-align: left;
+    /*margin: 0px;*/
+    padding: 20px;
+}
+#navBarLogo{
+	height: 60px;
+	width: 63px;
+	position: relative;
+	float: left;
+	padding-right: 7px;
+	margin-left: 125px;
+}
+#navBar{
+	float: left;
+	margin: 0;
+	padding:0;
+	
+}
+
+#navBar ul{
+  	list-style-type: none;
+}
+
+#naBar li{
+	
+
+}
+
+#navBar a{
+	font-size: 110%;
+}
+#navbar a:
+
+#navBar a:hover{
+	color: orangered;
+    /*color: tomato;*/
+    font-weight: bolder;
+}
+#navBar a:active{
+	color: green;
+}
+
+
+
+/*====BODY CONTAINER SECTION ====*/
+
+.centerPhoto{
+	margin: 20px 10px 10px 10px; 
+    padding: 10%;
+    height: 300px;
+    width: 600px;
+}
+
+#mainHomeContainer{
+    background-color: lavender;
+	width: 100%;
+	height: 550px;
+	margin-top: -70px;
+}
+
+
+.circleContainer{
+	width: 1000px;
+	height: 1000px;
+	margin: 180px;
+	border-radius: 50%;
+	display: block;
+	opacity: 0.7;
+}
+
+.circleText{
+	margin-left: -8%;
+	padding-top: 5px;
+}
+
+/* === UNDERLINE SECTION ==== */
+
+hr.orangeUnderlineHealth{
+	border: 5px solid black;
+	width: 600px;
+	margin: -30px;
+	border-radius: 5px;
+}
+
+
+hr.greenUnderlineAgric{
+	border: 5px solid black;
+	width: 600px;
+	margin: -30px;
+	border-radius: 5px;
+}
+
+hr.purpleUnderlineEducation{
+	border: 5px solid black;
+	width: 600px;
+	margin: -30px;
+	border-radius: 5px;
+}
+
+hr.blueUnderlineEducation{
+	border: 5px solid black;
+	width: 600px;
+	margin: -30px;
+	border-radius: 5px;
+}
+
+
+.healthSection{
+	background-color: darkorange;
+	position: relative;	
+}
+
+#agricultureSection{
+	background-color: green;
+	position: relative;	
+}
+
+#education{
+	background-color: magenta;
+	position: relative;
+}
+
+#section4{
+	background-color: blue;
+	position: relative;
+}
+
+.videoContainer{
+
+}
+
+h1{
+	font-size: 100px;
+	font-family: arial;
+}
+
+h3{
+	font-size: 40px;
+	font-family: arial;
+	opacity: 0.9;
+}
+
+.mainHomeText{
+	text-align: center;
+}
+
+/* FOOTER SECTION === */
+
+#languagePack{
+	text-align: right;
+}
+
+#footer{
+	max-width: 100%;
+	height: 500px;
+	background-color: orangered;
+}
+
